@@ -1,13 +1,15 @@
 import pygame
 from selenium.common.exceptions import WebDriverException
 from selenium import webdriver
+
+import FingertipDino
 import jjtodino_
 import bctopinball
-import matplotlib
-import matplotlib.pyplot as plt
-import matplotlib.backends.backend_agg as agg
-from pygame.locals import *
-import pylab
+# import matplotlib
+# import matplotlib.pyplot as plt
+# import matplotlib.backends.backend_agg as agg
+# from pygame.locals import *
+# import pylab
 import random
 from copy import deepcopy
 import csv
@@ -437,10 +439,14 @@ def run_chrome():
                         # os.system("python jjtodino.py")
                         # subprocess.run(["python", "jjtodino.py"], check=True)
                         driver.get("chrome://dino")
+                        print('try is executed')
                         # driver.get("google.com")
                         # driver.quit()
                     except WebDriverException:
-                        jjtodino_.jumping_jack_to()
+                        print('then this except is executed')
+                        # jjtodino_.jumping_jack_to()
+                        FingertipDino.fingertip_to_dino()
+
                         pass
 
                     # driver.quit()

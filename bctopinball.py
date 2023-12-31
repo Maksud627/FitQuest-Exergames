@@ -2,9 +2,9 @@ import mediapipe as mp
 import cv2
 import numpy as np
 import pyautogui
-import time
-import keyboard
-from pynput.keyboard import Key, Controller
+# import time
+# import keyboard
+# from pynput.keyboard import Key, Controller
 import csv
 
 
