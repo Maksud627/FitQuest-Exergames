@@ -11,3 +11,5 @@ To run this game on your device,
 5. Do left or right bicep curl to control the corresponding pinball hands and squat to load the ball.
 6. Refer to this link as the video demonstration of the applicatoin: https://drive.google.com/file/d/1GA9vbVsWp7ENn7VgpDmKQes22lLfWM_O/view?usp=share_link
 7. If you face any issues regarding debugging, mail me: maksudulhaque@iut-dhaka.edu
+
+<b> Current updated branch is 'Updated'</b>
